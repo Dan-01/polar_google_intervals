@@ -5,8 +5,8 @@ These scripts are designed to be used in Google App Script - mainly for Google s
 The idea being that you pull data from Polar, dump it in a sheet, and then be able to put relevant data fields into Wellness fields in [Intervals.icu](https://intervals.icu)  
 Once you have data in Google Sheets you can also build dashboard visualisations with [Google Data Studio](https://datastudio.google.com)  
 
-Important caveat - you require a Polar accesslink account (free) and a token.  
-This is a somewhat convoluted process but I think best option is to run the Polar demo application in Python and then just grab the token from the yml file that stores it.  
+Important caveat - you require a Polar accesslink account (free) and an OAuth2 token.  
+This is a somewhat convoluted process to setup initially but I think the quickest/easiest option for now is to run the Polar demo application in Python and then just grab the token from the yml file that stores it.  
 Once you have it, just update the constants.gs file and it should work. According to the docs it won't expire either.  
 
 Polar documentation to get started:  
