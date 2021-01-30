@@ -1,7 +1,7 @@
 # polar_google_intervals
 Integration from Polar fitness data to Google sheets to Intervals.icu
 
-These scripts are designed to be used in Google App Scripte - mainly for Google sheets.
+These scripts are designed to be used in Google App Script - mainly for Google sheets.
 The idea being that you pull data from Polar, dump it in a sheet, and then be able to put relevant data fields into Wellness fields in Intervals.icu (https://intervals.icu)  
 
 Important caveat - you require a Polar accesslink account (free) and a token.  
